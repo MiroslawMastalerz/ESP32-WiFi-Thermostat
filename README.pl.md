@@ -21,8 +21,8 @@ Główny ekran Mastera pokazuje:
 
 W górnej części ekranu wyświetlany jest status połączeń oraz siła sygnału Wi-Fi. Po lewej stronie widoczny jest status Slave (modułu przy piecu), a po prawej — samego termostatu (Master).
 
-<img src="images/master_c.jpeg" alt="Ekran główny — ogrzewanie wyłączone" width="400">
-<img src="images/master_1.jpeg" alt="Ekran termostatu Master" width="400">
+<img src="images/master-c.jpeg" alt="Ekran główny — ogrzewanie wyłączone" width="400">
+<img src="images/master1.jpeg" alt="Ekran termostatu Master" width="400">
 
 ### 2. Regulacja temperatury i histerezy
 
@@ -38,11 +38,11 @@ Ikona kaloryfera obok pola „Temperatura zadana” sygnalizuje stan ogrzewania:
 
 🔵 Niebieska — ogrzewanie wyłączone.
 
-<img src="images/master_c.jpeg" alt="Ekran główny — ogrzewanie wyłączone" width="400">
+<img src="images/master-c.jpeg" alt="Ekran główny — ogrzewanie wyłączone" width="400">
 
 🔴 Czerwona — ogrzewanie włączone.
 
-<img src="images/master_h.jpeg" alt="Ekran główny — ogrzewanie włączone" width="400">
+<img src="images/master-h.jpeg" alt="Ekran główny — ogrzewanie włączone" width="400">
 
 Kolor ikony odpowiada stanowi sterowania przekaźnikiem, a nie bezpośredniemu pomiarowi pracy palnika kotła.
 

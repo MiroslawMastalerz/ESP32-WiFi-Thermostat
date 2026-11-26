@@ -21,8 +21,9 @@ The Master's main screen displays:
 
 The top of the screen displays the connection status and Wi-Fi signal strength. The left side shows the status of the Slave (the module installed near the boiler), while the right side shows the status of the Master thermostat.
 
-![Wi-Fi and connection status](images/master_c.jpeg){width=400}
-![Master thermostat main screen](images/master_1.jpeg){width=400}
+![Wi-Fi and connection status](images/master-c.jpeg){width=400}
+
+![Master thermostat main screen](images/master1.jpg){width=400}
 
 ### 2. Temperature and Hysteresis Adjustment
 
@@ -38,11 +39,12 @@ The radiator icon next to the "Target Temperature" field indicates the heating s
 
 🔵 **Blue — heating OFF**
 
-![Heating OFF](images/master_c.jpeg){width=400}
+
+![Heating OFF](images/master-c.jpeg){width=400}
 
 🔴 **Red — heating ON**
 
-![Heating ON](images/master_h.jpeg){width=400}
+![Heating ON](images/master-h.jpeg){width=400}
 
 The icon color represents the relay control state, not a direct measurement of the boiler burner's operation.
 
