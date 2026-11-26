@@ -4,6 +4,49 @@ A wireless room thermostat for controlling a boiler or another heating device eq
 
 The system consists of two modules communicating over a local Wi-Fi network. **It does not require cloud services or internet access.**
 
+## Thermostat Main Screen
+
+The Master's main screen displays:
+
+- Current room temperature
+- Target temperature
+- Hysteresis
+- Humidity
+- Atmospheric pressure
+- TCP connection status
+- Wi-Fi signal strength
+- Arrows indicating trends in the measured values
+
+### 1. Connection Status
+
+The top of the screen displays the connection status and Wi-Fi signal strength. The left side shows the status of the Slave (the module installed near the boiler), while the right side shows the status of the Master thermostat.
+
+![Wi-Fi and connection status](images/master_c.jpeg){width=400}
+![Master thermostat main screen](images/master_1.jpeg){width=400}
+
+### 2. Temperature and Hysteresis Adjustment
+
+Tapping the "Target Temperature" field allows you to adjust the desired temperature using the slider at the bottom of the screen. Tapping the "Hysteresis" field allows you to adjust the hysteresis using the same slider.
+
+### 3. Humidity
+
+The color of the displayed humidity value indicates whether the humidity level is within the recommended comfort range or outside the recommended values for residential environments.
+
+### 4. Heating Status
+
+The radiator icon next to the "Target Temperature" field indicates the heating status.
+
+🔵 **Blue — heating OFF**
+
+![Heating OFF](images/master_c.jpeg){width=400}
+
+🔴 **Red — heating ON**
+
+![Heating ON](images/master_h.jpeg){width=400}
+
+The icon color represents the relay control state, not a direct measurement of the boiler burner's operation.
+
+
 ## Components
 
 **Master — room controller**
