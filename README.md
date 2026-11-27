@@ -290,7 +290,7 @@ Jeżeli program Ci się podoba i jest przydatny w Twojej pracy lub zabawie z sam
 **https://buycoffee.to/asdero**
 <br>
 <a href="https://buycoffee.to/asdero">
-  <img src="screenshots/QR_buycoffee.png" width="150" alt="Buy me a coffee">
+  <img src="images/QR_buycoffee.png" width="150" alt="Buy me a coffee">
 </a>
 
 The complete system was tested with an MPM Wood Pell 14 kW boiler using an ecoMAX850 controller and a Sztoker Pellet 12 kW boiler using a mini-PID controller.
