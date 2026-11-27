@@ -202,6 +202,8 @@ The thermostat works with Home Assistant through the HomeKit Device integration 
 
 ![Thermostat settings in Home Assistant](images/HA2.png)
 
+![Iphone](images/iphone.png)
+
 ---
 
 **Warning:** Connect the relay contacts only to the appropriate boiler control input, as specified in the manufacturer's documentation. Do not apply voltage to an input intended for volt-free control. The 230 V-powered section requires safe assembly and appropriate insulation.

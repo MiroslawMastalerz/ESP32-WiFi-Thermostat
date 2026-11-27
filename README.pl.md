@@ -202,6 +202,8 @@ Termostat współpracuje z Home Assistant przez integrację HomeKit Device lub b
 
 <img src="images/HA2.png" alt="Ustawienia termostatu w Home Assistant" width="400">
 
+<img src="images/iphone.png" alt="Na Iphone" width="400">
+
 ---
 
 **Uwaga:** styki przekaźnika należy podłączać wyłącznie do odpowiedniego wejścia sterującego kotła, zgodnie z dokumentacją producenta. Nie należy podawać napięcia na wejście przeznaczone do sterowania beznapięciowego. Część zasilana napięciem 230 V wymaga bezpiecznego montażu i odpowiedniej izolacji.
