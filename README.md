@@ -202,7 +202,7 @@ The thermostat works with Home Assistant through the HomeKit Device integration 
 
 ![Thermostat settings in Home Assistant](images/HA2.png)
 
-![Iphone](images/iphone.png)
+![On Iphone](images/iphone.PNG)
 
 ---
 

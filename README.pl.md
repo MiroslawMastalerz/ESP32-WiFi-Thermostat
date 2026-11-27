@@ -202,7 +202,7 @@ Termostat współpracuje z Home Assistant przez integrację HomeKit Device lub b
 
 <img src="images/HA2.png" alt="Ustawienia termostatu w Home Assistant" width="400">
 
-<img src="images/iphone.png" alt="Na Iphone" width="400">
+<img src="images/iphone.PNG" alt="Na Iphone" width="400">
 
 ---
 
