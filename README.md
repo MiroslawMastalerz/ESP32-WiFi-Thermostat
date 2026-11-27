@@ -279,6 +279,20 @@ Program diagnostics can be enabled by setting `DIAG=1` in the build configuratio
 
 ------------------------------
 
+## ☕ Buy me a coffee / Postaw mi kawę
+
+If you like my software and find it useful in your work or automotive hobby, feel free to buy me a coffee! ;)
+
+Jeżeli program Ci się podoba i jest przydatny w Twojej pracy lub zabawie z samochodami, możesz postawić mi kawę. ;)
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Support%20me-orange?style=for-the-badge)](https://buycoffee.to/asdero)
+
+**https://buycoffee.to/asdero**
+<br>
+<a href="https://buycoffee.to/asdero">
+  <img src="screenshots/QR_buycoffee.png" width="150" alt="Buy me a coffee">
+</a>
+
 The complete system was tested with an MPM Wood Pell 14 kW boiler using an ecoMAX850 controller and a Sztoker Pellet 12 kW boiler using a mini-PID controller.
 
 > ❤️ **P.S. Special thanks to my beloved sister Magdalena** for providing access to her Sztoker Pellet boiler and meticulously carrying out the tests! 😉
