@@ -278,6 +278,22 @@ Diagnostykę programu można włączyć przez ustawienie `DIAG=1` w konfiguracji
 **Ważne:** Master i Slave kompiluje się oraz programuje oddzielnie. Oba moduły muszą mieć identyczny klucz szyfrowania.
 
 ---
+## ☕ Buy me a coffee / Postaw mi kawę
+
+If you like my software and find it useful in your work or automotive hobby, feel free to buy me a coffee! ;)
+
+Jeżeli program Ci się podoba i jest przydatny w Twojej pracy lub zabawie z samochodami, możesz postawić mi kawę. ;)
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Support%20me-orange?style=for-the-badge)](https://buycoffee.to/asdero)
+
+**https://buycoffee.to/asdero**
+<br>
+<a href="https://buycoffee.to/asdero">
+  <img src="images/QR_buycoffee.png" width="150" alt="Buy me a coffee">
+</a>
+
+
+---
 
 Całość testowana na piecach MPM Wood Pell 14 kW ze sterownikiem ecoMAX850 i Sztoker Pellet 12 kW ze sterownikiem mini-PID  
 
