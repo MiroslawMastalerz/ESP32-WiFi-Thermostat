@@ -21,9 +21,9 @@ The Master's main screen displays:
 
 The top of the screen displays the connection status and Wi-Fi signal strength. The left side shows the status of the Slave (the module installed near the boiler), while the right side shows the status of the Master thermostat.
 
-![Wi-Fi and connection status](images/master-c.jpeg)
+<img src="images/master-c.jpeg" width="450" alt="Wi-Fi and connection status">
 
-![Master thermostat main screen](images/master1.jpg)
+<img src="images/master1.jpg" width="450" alt="Master thermostat main screen">
 
 ### 2. Temperature and Hysteresis Adjustment
 
@@ -40,11 +40,11 @@ The radiator icon next to the "Target Temperature" field indicates the heating s
 🔵 **Blue — heating OFF**
 
 
-![Heating OFF](images/master-c.jpeg)
+<img src="images/master-c.jpeg" width="450" alt="Heating OFF">
 
 🔴 **Red — heating ON**
 
-![Heating ON](images/master-h.jpeg)
+<img src="images/master-h.jpeg" width="450" alt="Heating ON">
 
 The icon color represents the relay control state, not a direct measurement of the boiler burner's operation.
 
@@ -131,11 +131,11 @@ Because of the limited available RAM — the program was already running with al
 
 The price is similar, but the new board offers a slightly better IPS display and a CST816D capacitive touchscreen, which I handle without an additional touch library. This reduced RAM usage.
 
-![NiceMCU Master board](images/plyta-nowa.jpg)
+<img src="images/plyta-nowa.jpg" width="400" alt="NiceMCU Master board">
 
 The BME280 sensor is connected to the socket labeled I2C.
 
-![Master I2C connector](images/master-i2c.jpg)
+<img src="images/master-i2c.jpg" width="400" alt="Master I2C connector">
 
 ## Slave actuator module
 
@@ -159,14 +159,14 @@ Thanks to the transistor, a HIGH signal on GPIO4 pulls the relay input LOW.
 
 The circuit is simple enough that I probably don't need to draw a schematic. :)
 
-![Slave module](images/slave.jpeg)
+<img src="images/slave.jpeg" width="400" alt="Slave module">
 
 ## How the entire system works
 
 When configuration starts, the Master discovers the Slave via BLE and authenticates it using the shared encryption key. It then sends the Wi-Fi network name and password.
 
-![Wi-Fi network settings](images/master_siec.jpeg)
-![Slave BLE network settings](images/siec_slave.jpeg)
+<img src="images/master_siec.jpeg" width="450" alt="Wi-Fi network settings">
+<img src="images/siec_slave.jpeg" width="450" alt="Slave BLE network settings">
 
 After joining the network, the Slave starts a TCP server, and the Master establishes an encrypted communication session with it.
 
@@ -176,11 +176,11 @@ The Slave executes the commands by controlling the relay and sends acknowledgeme
 
 If communication is lost, the Slave follows the previously configured fail-safe mode. This means heating control does not depend on the Master being continuously available.
 
-![Relay / fail-safe settings](images/master_przekaznik_awaria.jpeg)
+<img src="images/master_przekaznik_awaria.jpeg" width="450" alt="Relay / fail-safe settings">
 
 The complete enclosures are made from these 3D-printed parts.
 
-![3D-printed parts](images/wydruki_3D.jpg)
+<img src="images/wydruki_3D.jpg" width="450" alt="3D-printed parts">
 
 ## First startup
 
@@ -196,13 +196,13 @@ BLE is used for configuration, not for normal boiler control.
 
 The thermostat works with Home Assistant through the HomeKit Device integration or directly with the Home app on an iPhone.
 
-![Thermostat in Home Assistant](images/ha3.png)
+<img src="images/ha3.png" width="500" alt="Thermostat in Home Assistant">
 
-![Thermostat panel in Home Assistant](images/HA1.png)
+<img src="images/HA1.png" width="500" alt="Thermostat panel in Home Assistant">
 
-![Thermostat settings in Home Assistant](images/HA2.png)
+<img src="images/HA2.png" width="500" alt="Thermostat settings in Home Assistant">
 
-![On Iphone](images/iphone.PNG)
+<img src="images/iphone.PNG" width="280" alt="On Iphone">
 
 ---
 
