@@ -158,6 +158,8 @@ Dzięki tranzystorowi sygnał HIGH z GPIO4 powoduje wysterowanie wejścia LOW pr
 
 Układ na tyle prosty, że chyba nie muszę go rozrysowywać. :)
 
+<img src="images/slave.jpeg" alt="Moduł wykonawczy Slave" width="400">
+
 ## Zasada działania całego systemu
 
 Po uruchomieniu konfiguracji Master wyszukuje Slave przez BLE i uwierzytelnia go przy użyciu wspólnego klucza szyfrowania. Następnie przekazuje mu nazwę i hasło sieci Wi-Fi.

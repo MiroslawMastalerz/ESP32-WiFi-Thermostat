@@ -159,6 +159,8 @@ Thanks to the transistor, a HIGH signal on GPIO4 pulls the relay input LOW.
 
 The circuit is simple enough that I probably don't need to draw a schematic. :)
 
+![Slave module](images/slave.jpeg)
+
 ## How the entire system works
 
 When configuration starts, the Master discovers the Slave via BLE and authenticates it using the shared encryption key. It then sends the Wi-Fi network name and password.
@@ -174,7 +176,7 @@ The Slave executes the commands by controlling the relay and sends acknowledgeme
 
 If communication is lost, the Slave follows the previously configured fail-safe mode. This means heating control does not depend on the Master being continuously available.
 
-![Relay / fail-safe settings](images/master_przekaznik_awaria.jpeg){width=400}
+![Relay / fail-safe settings](images/master_przekaznik_awaria.jpeg)
 
 The complete enclosures are made from these 3D-printed parts.
 
